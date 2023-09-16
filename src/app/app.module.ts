@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { EffectsModule } from '@ngrx/effects';
 import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 import { environment } from '../environments/environment'
+import { appReducer } from './shared/store/app.reducer';
 @NgModule({
   declarations: [
     AppComponent
@@ -14,7 +15,7 @@ import { environment } from '../environments/environment'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot({},{}),
+    StoreModule.forRoot({myappstate: appReducer}),
     EffectsModule.forRoot([]),
     HttpClientModule,
     StoreDevtoolsModule.instrument({

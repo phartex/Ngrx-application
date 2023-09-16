@@ -4,7 +4,19 @@
       "id": 1,
       "title": "beauty for ashes",
       "author": "kennny rowland",
-      "cost":"300"
+      "cost": "300"
+    },
+    {
+      "id": 2,
+      "title": "Alices wonderland",
+      "author": "lewis carroll",
+      "cost": 250
+    },
+    {
+      "id": 3,
+      "title": "jdjjdj",
+      "author": "jsjdjdjd",
+      "cost": 3333333
     }
   ]
 }
